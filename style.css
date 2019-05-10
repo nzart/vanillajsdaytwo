@@ -1,0 +1,29 @@
+body {
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffc400;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Helvetica Neue';
+    font-size: 2em;
+}
+
+#top {
+    display: inline-block;
+}
+
+#time {
+    display: flex;
+    transition: all 0.7s;
+}
+
+#message {
+    display: flex;
+}
+
+
